@@ -1,0 +1,11 @@
+{
+  "name": "firstDemo",
+  "description": "My First Express App",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "4.x"
+  },
+  "devDependencies": {
+    "hbs": "^4.0.0"
+  }
+}
