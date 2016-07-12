@@ -7,11 +7,11 @@ var entries = [
 	{"id":6,"title":"第六篇","body":"正文","published":"6/12/2013"}	
 ];
 
-exports.getBlogEnties = function(){
+exports.getBlogEntries = function(){
 	return entries;
 }
 
-exports.getBlogEnty = function(id){
+exports.getBlogEntry = function(id){
 	for(var i=0;i<entries.length;i++){
 		if(entries[i].id == id){
 			return entries[i];
